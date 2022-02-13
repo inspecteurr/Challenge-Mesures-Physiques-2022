@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Mesures Physiques 2022</title>
+    <link rel="stylesheet" href="challenge_mesures_physiques.css">
+    <script src="challenges_mesures_physiques.js" async></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- <section class="foot_montagnes">
+        <svg id="visual" viewBox="0 0 1800 100" width="1800" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><path d="M0 86L82 76L164 97L245 59L327 79L409 67L491 59L573 92L655 98L736 69L818 63L900 95L982 88L1064 76L1145 72L1227 77L1309 75L1391 72L1473 90L1555 82L1636 91L1718 87L1800 77L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#750f11"></path><path d="M0 85L82 84L164 97L245 78L327 78L409 94L491 68L573 80L655 73L736 66L818 71L900 85L982 70L1064 82L1145 70L1227 64L1309 93L1391 67L1473 70L1555 97L1636 86L1718 90L1800 91L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#6c0e13"></path><path d="M0 88L82 94L164 82L245 96L327 90L409 82L491 71L573 83L655 89L736 80L818 90L900 66L982 97L1064 77L1145 72L1227 92L1309 67L1391 94L1473 77L1555 85L1636 85L1718 89L1800 79L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#630e15"></path><path d="M0 72L82 75L164 71L245 88L327 76L409 87L491 84L573 90L655 83L736 96L818 91L900 95L982 84L1064 73L1145 87L1227 89L1309 78L1391 92L1473 93L1555 69L1636 73L1718 97L1800 76L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#5a0e16"></path><path d="M0 74L82 98L164 95L245 72L327 76L409 74L491 96L573 72L655 81L736 85L818 79L900 80L982 80L1064 98L1145 91L1227 78L1309 86L1391 97L1473 86L1555 95L1636 78L1718 89L1800 80L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#510f16"></path><path d="M0 88L82 75L164 90L245 91L327 90L409 99L491 79L573 89L655 77L736 85L818 85L900 83L982 82L1064 91L1145 85L1227 78L1309 80L1391 99L1473 99L1555 85L1636 96L1718 91L1800 88L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#480f16"></path><path d="M0 95L82 91L164 78L245 88L327 93L409 79L491 86L573 91L655 98L736 99L818 81L900 78L982 79L1064 84L1145 81L1227 95L1309 90L1391 80L1473 88L1555 89L1636 86L1718 84L1800 86L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#3e0f16"></path><path d="M0 95L82 84L164 86L245 87L327 98L409 86L491 95L573 91L655 88L736 92L818 83L900 93L982 98L1064 94L1145 86L1227 88L1309 93L1391 97L1473 88L1555 83L1636 94L1718 87L1800 99L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#350f14"></path><path d="M0 98L82 95L164 90L245 86L327 90L409 87L491 85L573 96L655 94L736 99L818 86L900 84L982 84L1064 94L1145 93L1227 87L1309 94L1391 94L1473 97L1555 86L1636 92L1718 97L1800 96L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#2c0e13"></path><path d="M0 93L82 97L164 94L245 87L327 95L409 98L491 93L573 91L655 99L736 98L818 97L900 90L982 89L1064 95L1145 98L1227 99L1309 89L1391 88L1473 96L1555 98L1636 93L1718 89L1800 89L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#230c10"></path><path d="M0 94L82 92L164 99L245 96L327 94L409 93L491 98L573 91L655 95L736 94L818 97L900 98L982 91L1064 93L1145 97L1227 97L1309 98L1391 94L1473 94L1555 97L1636 97L1718 97L1800 97L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#1b080c"></path><path d="M0 97L82 94L164 96L245 96L327 95L409 97L491 94L573 95L655 94L736 95L818 93L900 97L982 95L1064 96L1145 98L1227 98L1309 98L1391 97L1473 96L1555 93L1636 95L1718 95L1800 97L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#0f0406"></path></svg>
+    </section> -->
+    
+
+    <!-- ********************************************************************************************************************************** -->
+    <header class="loader">
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+        <div class="balle"></div>
+
+        <div class="titre">CHARGEMENT</div>
+    </header>
+
+    <section id='page1'>
+
+        <iframe src='https://my.spline.design/puydedme-04b385ea733a364c1d09c6c07384defd/' frameborder='0' width='100%' height='100%' id="puy_de_dome"></iframe>
+
+        <div id="cursor1"></div>
+        <div id="cursor2"></div>
+
+        <section id="humberger">
+            <div class="trait one"></div>
+            <div class="trait two"></div>
+            <div class="trait three"></div>
+
+            <section class="nav_tel">
+
+                <div class="nav nav1">
+                    <a href="#page1">
+                        <h2>Accueil</h2>
+                    </a>
+                </div>
+                <div class="nav nav2">
+                    <a href="#page2">
+                        <h2>Le challenge</h2>
+                    </a>
+                </div>
+                <div class="nav nav3">
+                    <a href="#page3">
+                        <h2>Le sismomètre</h2>
+                    </a>
+                </div>
+                <div class="nav nav4">
+                    <a href="#page4">
+                        <h2>L'acidité Dornic</h2>
+                    </a>
+                </div>
+                <div class="nav nav5">
+                    <a href="#page5">
+                    <h2>Mesure du bruit</h2>
+                    </a>
+                </div>
+                <div class="nav nav6">
+                    <a href="#page6">
+                    <h2>Autres</h2>
+                    </a>
+                </div>
+                <div class="nav nav7">
+                    <a href="#footer">
+                    <h2>Contacts</h2>
+                    </a>
+                </div>
+    
+            </section>
+        </section>
+
+        <nav>
+            
+            <div class="nav nav1">
+                <a href="#page1">
+                    <h2>Accueil</h2>
+                </a>
+            </div>
+            <div class="nav nav2">
+                <a href="#page2">
+                    <h2>Le challenge</h2>
+                </a>
+            </div>
+            <div class="nav nav3">
+                <a href="#page3">
+                    <h2>Le sismomètre</h2>
+                </a>
+            </div>
+            <div class="nav nav4">
+                <a href="#page4">
+                    <h2>L'acidité Dornic</h2>
+                </a>
+            </div>
+            <div class="nav nav5">
+                <a href="#page5">
+                <h2>Mesure du bruit</h2>
+                </a>
+            </div>
+            <div class="nav nav6">
+                <a href="#page6">
+                <h2>Autres</h2>
+                </a>
+            </div>
+            <div class="nav nav7">
+                <a href="#footer">
+                <h2>Contacts</h2>
+                </a>
+            </div>
+        </nav>
+
+
+        <section class='title'>
+            <h1>CHALLENGE MESURES</h1>
+            <h1>PHYSIQUES 2022</h1>
+        </section>
+
+        <section class="svg">
+            <svg id="visual" viewBox="0 0 1800 100" width="1800" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><path d="M0 91L82 64L164 85L245 74L327 93L409 73L491 62L573 72L655 73L736 74L818 84L900 60L982 81L1064 92L1145 62L1227 91L1309 97L1391 78L1473 95L1555 81L1636 89L1718 79L1800 60L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#750f11"></path><path d="M0 74L82 81L164 94L245 78L327 82L409 75L491 80L573 92L655 82L736 71L818 83L900 67L982 73L1064 71L1145 65L1227 86L1309 84L1391 81L1473 69L1555 90L1636 85L1718 69L1800 71L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#6c0e13"></path><path d="M0 76L82 66L164 87L245 84L327 97L409 94L491 68L573 97L655 66L736 97L818 87L900 89L982 77L1064 69L1145 80L1227 82L1309 86L1391 72L1473 91L1555 70L1636 71L1718 72L1800 97L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#630e15"></path><path d="M0 75L82 80L164 94L245 69L327 75L409 97L491 78L573 94L655 76L736 79L818 90L900 89L982 86L1064 70L1145 95L1227 87L1309 87L1391 72L1473 77L1555 72L1636 96L1718 84L1800 90L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#5a0e16"></path><path d="M0 74L82 73L164 94L245 75L327 97L409 81L491 91L573 85L655 88L736 94L818 74L900 97L982 74L1064 83L1145 80L1227 90L1309 94L1391 90L1473 93L1555 81L1636 77L1718 87L1800 90L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#510f16"></path><path d="M0 98L82 89L164 93L245 79L327 86L409 82L491 95L573 84L655 93L736 91L818 99L900 88L982 93L1064 81L1145 78L1227 95L1309 77L1391 80L1473 87L1555 77L1636 92L1718 99L1800 77L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#480f16"></path><path d="M0 90L82 95L164 87L245 80L327 93L409 86L491 81L573 81L655 88L736 82L818 80L900 93L982 83L1064 96L1145 79L1227 97L1309 87L1391 86L1473 82L1555 97L1636 79L1718 89L1800 93L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#3e0f16"></path><path d="M0 90L82 93L164 95L245 87L327 84L409 96L491 82L573 82L655 86L736 82L818 93L900 96L982 87L1064 85L1145 84L1227 86L1309 89L1391 90L1473 96L1555 92L1636 98L1718 96L1800 86L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#350f14"></path><path d="M0 93L82 88L164 85L245 85L327 92L409 93L491 87L573 90L655 93L736 98L818 94L900 86L982 97L1064 99L1145 96L1227 84L1309 92L1391 89L1473 97L1555 98L1636 89L1718 87L1800 90L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#2c0e13"></path><path d="M0 95L82 91L164 96L245 96L327 88L409 91L491 98L573 94L655 88L736 88L818 88L900 95L982 87L1064 93L1145 87L1227 91L1309 89L1391 95L1473 95L1555 92L1636 90L1718 90L1800 92L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#230c10"></path><path d="M0 96L82 98L164 94L245 93L327 94L409 93L491 94L573 94L655 93L736 92L818 97L900 95L982 91L1064 98L1145 92L1227 91L1309 93L1391 90L1473 96L1555 97L1636 95L1718 93L1800 92L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#1b080c"></path><path d="M0 94L82 97L164 96L245 95L327 96L409 97L491 98L573 96L655 98L736 98L818 94L900 95L982 97L1064 98L1145 93L1227 94L1309 94L1391 95L1473 94L1555 96L1636 98L1718 95L1800 94L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#0f0406"></path></svg>
+        </section>
+
+    </section>
+
+    <!-- ********************************************************************************************************************************** -->
+
+    <section id='page2'>
+
+            <section class='barres'>
+                <div class="barre1"></div>
+                <div class="barre2"></div>
+            </section>
+    
+            <section class="container_panneau">
+                <section class="panneau">
+                    <div class="title">
+                        <p>Le challenge</p> 
+                    </div>
+                </section>
+            </section>
+
+            <div class="barre3"></div>
+
+            <article class="bloc1">             
+                <h3>Qu'est ce que c'est ?</h3>
+                <section class="text">
+                    <p>Le challenge Mesures Physiques réunis des étudiants d'une grande partie des DUT Mesures Physiques afin qu'ils créent eux même 
+                        des systèmes de mesures qui pourront être comparés lors d'une journée à la fin du challenge dans le cadre 
+                        d'un Projet Tutoré. <br> <br>
+                        Cette année, c'est à l'IUT de Clermont-Ferrand que se déroulera le challenge. Le thème est donc en rapport avec 
+                        l’Auvergne et plus particulièrement en rapport avec la Chaîne des Puys et de la Faille de Limagne, inscrite en juillet 
+                        2018 au patrimoine mondial de l’UNESCO. <br> <br>
+                        Deux systèmes de mesure sont obligatoire : <br>
+                           -Mouvements du sol avec la réalisation d’un sismomètre, <br>
+                           -Acidité Dornic <br>
+                        Et une mesure sera choisit par chaque équipe du moment qu'elle correspond au thème.
+
+                    </p>
+                </section>
+            </article>
+
+            <div class="barre4"></div>
+
+            <article class="bloc2">             
+                <h3>Notre participation</h3>
+                <section class="text">
+                    <p>C'est donc Colyne CHARBON, Bastien GARDETTE, Gaël POREE, Alexandre TAIN et Hugo THYS qui composent l'équipe de l'IUT 
+                        de Clermont-Ferrand tutorés par Madame PERY et Monsieur POLLES. Nous avons choisis le mesure de sons de volcans 
+                        comme mesure au choix afin de pouvoir savoir si un volcan est explosif ou effusif à partir du son qu'il émet.<br>
+                        Notre équipe s'est donc partager le travail. Ainsi, Alexandre, Bastien et Hugo se sont occupés en majorité du 
+                        sismomètre tandis que Colyne s'occupé de la mesure de l'acidité Dornic et Gaël de la mesure du son. 
+                    </p>
+                </section>
+            </article>
+
+            <section class="svg">
+                <svg id="visual" viewBox="0 0 1800 100" width="1800" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><path d="M0 60L82 93L164 77L245 59L327 61L409 92L491 63L573 94L655 66L736 96L818 78L900 69L982 74L1064 74L1145 78L1227 63L1309 72L1391 97L1473 72L1555 83L1636 70L1718 90L1800 63L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#750f11"></path><path d="M0 99L82 97L164 70L245 71L327 78L409 89L491 89L573 80L655 79L736 98L818 88L900 96L982 77L1064 99L1145 96L1227 96L1309 64L1391 74L1473 76L1555 66L1636 75L1718 95L1800 68L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#6c0e13"></path><path d="M0 66L82 89L164 71L245 95L327 73L409 70L491 91L573 95L655 99L736 82L818 75L900 85L982 75L1064 80L1145 78L1227 80L1309 90L1391 98L1473 91L1555 71L1636 92L1718 90L1800 94L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#630e15"></path><path d="M0 83L82 76L164 89L245 73L327 82L409 69L491 71L573 69L655 92L736 91L818 96L900 96L982 95L1064 90L1145 74L1227 80L1309 89L1391 80L1473 95L1555 81L1636 77L1718 97L1800 69L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#5a0e16"></path><path d="M0 78L82 87L164 83L245 89L327 79L409 73L491 95L573 79L655 85L736 74L818 75L900 85L982 77L1064 77L1145 74L1227 89L1309 82L1391 74L1473 73L1555 80L1636 86L1718 75L1800 91L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#510f16"></path><path d="M0 98L82 81L164 93L245 85L327 79L409 79L491 78L573 88L655 80L736 84L818 96L900 88L982 95L1064 99L1145 84L1227 87L1309 90L1391 97L1473 78L1555 83L1636 86L1718 78L1800 81L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#480f16"></path><path d="M0 81L82 82L164 94L245 87L327 84L409 90L491 78L573 97L655 93L736 94L818 89L900 98L982 79L1064 98L1145 85L1227 96L1309 92L1391 90L1473 87L1555 79L1636 85L1718 88L1800 98L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#3e0f16"></path><path d="M0 96L82 85L164 86L245 89L327 81L409 89L491 97L573 85L655 96L736 93L818 87L900 82L982 82L1064 89L1145 84L1227 82L1309 91L1391 82L1473 90L1555 82L1636 95L1718 96L1800 94L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#350f14"></path><path d="M0 89L82 84L164 96L245 86L327 85L409 95L491 88L573 93L655 97L736 89L818 95L900 97L982 91L1064 97L1145 85L1227 86L1309 85L1391 97L1473 95L1555 87L1636 88L1718 86L1800 90L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#2c0e13"></path><path d="M0 87L82 98L164 89L245 97L327 95L409 92L491 91L573 95L655 98L736 90L818 90L900 94L982 96L1064 89L1145 96L1227 94L1309 90L1391 97L1473 95L1555 88L1636 97L1718 96L1800 87L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#230c10"></path><path d="M0 95L82 97L164 94L245 98L327 95L409 97L491 93L573 92L655 93L736 98L818 94L900 95L982 93L1064 93L1145 91L1227 95L1309 93L1391 90L1473 97L1555 91L1636 93L1718 94L1800 90L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#1b080c"></path><path d="M0 99L82 98L164 97L245 99L327 95L409 93L491 98L573 99L655 97L736 98L818 97L900 94L982 97L1064 96L1145 96L1227 95L1309 94L1391 96L1473 97L1555 95L1636 95L1718 99L1800 98L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#0f0406"></path></svg>
+            </section>
+
+    </section>
+
+    <!-- ********************************************************************************************************************************** -->
+
+    <section id='page3'>
+
+        <section class='barres'>
+            <div class="barre1"></div>
+            <div class="barre2"></div>
+        </section>
+
+        <section class="container_panneau">
+            <section class="panneau">
+                <div class="title">
+                    <p>Le sismomètre</p> 
+                </div>
+            </section>
+        </section>
+
+        <div class="barre3"></div>
+
+        <article class="bloc1">             
+            <h3>Qu'est ce que c'est ?</h3>
+            <section class="text">
+                <p>Le challenge Mesures Physiques réunis des étudiants d'une grande partie des DUT Mesures Physiques afin qu'ils créent eux même 
+                    des systèmes de mesures et qu'ils se comparent entre eux. 
+                </p>
+            </section>
+        </article>
+
+        <div class="barre4"></div>
+
+        <article class="bloc2">             
+            <h3>Notre participation</h3>
+            <section class="text">
+                <p>Le challenge Mesures Physiques réunis des étudiants d'une grande partie des DUT Mesures Physiques afin qu'ils créent eux même 
+                    des systèmes de mesures et qu'ils se comparent entre eux. 
+                </p>
+            </section>
+        </article>
+
+        <section class="svg">
+            <svg id="visual" viewBox="0 0 1800 100" width="1800" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><path d="M0 65L82 92L164 83L245 77L327 75L409 60L491 62L573 88L655 78L736 92L818 90L900 77L982 63L1064 99L1145 70L1227 81L1309 77L1391 95L1473 89L1555 92L1636 72L1718 86L1800 65L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#750f11"></path><path d="M0 95L82 96L164 94L245 94L327 72L409 79L491 81L573 83L655 72L736 89L818 81L900 76L982 94L1064 76L1145 70L1227 92L1309 64L1391 78L1473 99L1555 92L1636 75L1718 96L1800 91L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#6c0e13"></path><path d="M0 90L82 91L164 89L245 65L327 80L409 83L491 77L573 70L655 68L736 94L818 85L900 71L982 97L1064 95L1145 96L1227 75L1309 85L1391 68L1473 89L1555 80L1636 80L1718 87L1800 72L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#630e15"></path><path d="M0 83L82 91L164 82L245 96L327 92L409 92L491 70L573 77L655 95L736 83L818 75L900 90L982 77L1064 96L1145 83L1227 96L1309 70L1391 93L1473 85L1555 85L1636 89L1718 70L1800 74L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#5a0e16"></path><path d="M0 98L82 98L164 80L245 77L327 81L409 86L491 89L573 84L655 89L736 85L818 82L900 78L982 91L1064 98L1145 75L1227 90L1309 78L1391 94L1473 90L1555 90L1636 91L1718 81L1800 82L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#510f16"></path><path d="M0 87L82 79L164 88L245 91L327 95L409 78L491 82L573 82L655 90L736 96L818 75L900 97L982 94L1064 89L1145 97L1227 95L1309 93L1391 90L1473 86L1555 79L1636 95L1718 76L1800 91L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#480f16"></path><path d="M0 92L82 92L164 86L245 90L327 79L409 98L491 84L573 98L655 79L736 93L818 83L900 93L982 89L1064 82L1145 84L1227 92L1309 97L1391 79L1473 90L1555 80L1636 97L1718 88L1800 96L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#3e0f16"></path><path d="M0 96L82 89L164 97L245 98L327 94L409 85L491 92L573 83L655 96L736 93L818 82L900 93L982 90L1064 95L1145 90L1227 89L1309 88L1391 94L1473 81L1555 98L1636 87L1718 92L1800 96L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#350f14"></path><path d="M0 98L82 84L164 90L245 98L327 97L409 95L491 99L573 92L655 88L736 90L818 94L900 98L982 84L1064 94L1145 88L1227 87L1309 93L1391 85L1473 92L1555 91L1636 88L1718 92L1800 84L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#2c0e13"></path><path d="M0 93L82 91L164 95L245 87L327 98L409 89L491 87L573 88L655 89L736 98L818 97L900 95L982 95L1064 92L1145 89L1227 87L1309 99L1391 96L1473 94L1555 96L1636 91L1718 87L1800 98L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#230c10"></path><path d="M0 97L82 97L164 91L245 90L327 98L409 97L491 93L573 95L655 92L736 99L818 94L900 93L982 94L1064 95L1145 98L1227 91L1309 93L1391 95L1473 94L1555 91L1636 96L1718 92L1800 96L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#1b080c"></path><path d="M0 96L82 94L164 94L245 94L327 95L409 96L491 94L573 93L655 98L736 93L818 96L900 94L982 95L1064 95L1145 97L1227 99L1309 99L1391 95L1473 93L1555 96L1636 94L1718 96L1800 94L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#0f0406"></path></svg>
+        </section>
+        
+
+    </section>
+    
+    <!-- ********************************************************************************************************************************** -->
+
+    <section id='page4'>
+
+        <section class='barres'>
+            <div class="barre1"></div>
+            <div class="barre2"></div>
+        </section>
+
+        <section class="container_panneau">
+            <section class="panneau">
+                <div class="title">
+                    <p>L'acidité Dornic</p> 
+                </div>
+            </section>
+        </section>
+
+        <div class="barre3"></div>
+
+        <article class="bloc1">             
+            <h3>Qu'est ce que c'est ?</h3>
+            <section class="text">
+                <p>Le challenge Mesures Physiques réunis des étudiants d'une grande partie des DUT Mesures Physiques afin qu'ils créent eux même 
+                    des systèmes de mesures qui pourront être comparés lors d'une journée à la fin du challenge dans le cadre 
+                    d'un Projet Tutoré. <br> <br>
+                    Cette année, c'est à l'IUT de Clermont-Ferrand que se déroulera le challenge. Le thème est donc en rapport avec 
+                    l’Auvergne et plus particulièrement en rapport avec la Chaîne des Puys et de la Faille de Limagne, inscrite en juillet 
+                    2018 au patrimoine mondial de l’UNESCO. <br> <br>
+                    Deux systèmes de mesure sont obligatoire : <br>
+                       -Mouvements du sol avec la réalisation d’un sismomètre, <br>
+                       -Acidité Dornic <br>
+                    Et une mesure sera choisit par chaque équipe du moment qu'elle correspond au thème.
+
+                </p>
+            </section>
+        </article>
+
+        <div class="barre4"></div>
+
+        <article class="bloc2">             
+            <h3>Notre participation</h3>
+            <section class="text">
+                <p>C'est donc Colyne CHARBON, Bastien GARDETTE, Gaël POREE, Alexandre TAIN et Hugo THYS qui composent l'équipe de l'IUT 
+                    de Clermont-Ferrand tutorés par Madame PERY et Monsieur POLLES. Nous avons choisis le mesure de sons de volcans 
+                    comme mesure au choix afin de pouvoir savoir si un volcan est effusif ou explosif à partir du son qu'il émet.<br>
+                    Notre équipe s'est donc partager le travail. Ainsi, Alexandre, Bastien et Hugo se sont occupés en majorité du 
+                    sismomètre tandis que Colyne s'occupé de la mesure de l'acidité Dornic et Gaël de la mesure du son. 
+                </p>
+            </section>
+        </article>
+
+        <section class="svg">
+            <svg id="visual" viewBox="0 0 1800 100" width="1800" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><path d="M0 64L82 87L164 63L245 65L327 89L409 80L491 69L573 82L655 87L736 81L818 63L900 85L982 69L1064 68L1145 71L1227 96L1309 98L1391 80L1473 63L1555 90L1636 85L1718 76L1800 96L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#750f11"></path><path d="M0 87L82 77L164 70L245 91L327 87L409 94L491 65L573 82L655 67L736 75L818 89L900 63L982 64L1064 83L1145 85L1227 91L1309 79L1391 85L1473 69L1555 82L1636 96L1718 64L1800 87L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#6c0e13"></path><path d="M0 87L82 68L164 98L245 95L327 76L409 84L491 70L573 89L655 83L736 92L818 78L900 76L982 94L1064 90L1145 76L1227 85L1309 95L1391 82L1473 93L1555 90L1636 71L1718 72L1800 69L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#630e15"></path><path d="M0 73L82 91L164 98L245 87L327 97L409 90L491 96L573 98L655 74L736 94L818 82L900 90L982 97L1064 87L1145 99L1227 85L1309 87L1391 97L1473 69L1555 83L1636 97L1718 76L1800 70L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#5a0e16"></path><path d="M0 93L82 80L164 72L245 88L327 86L409 81L491 83L573 86L655 88L736 76L818 75L900 84L982 76L1064 92L1145 85L1227 99L1309 75L1391 90L1473 91L1555 77L1636 91L1718 82L1800 92L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#510f16"></path><path d="M0 98L82 88L164 91L245 87L327 79L409 82L491 88L573 94L655 99L736 84L818 93L900 76L982 93L1064 84L1145 88L1227 84L1309 88L1391 87L1473 81L1555 81L1636 92L1718 82L1800 77L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#480f16"></path><path d="M0 95L82 91L164 86L245 89L327 79L409 91L491 84L573 89L655 93L736 83L818 80L900 80L982 78L1064 89L1145 96L1227 90L1309 90L1391 78L1473 98L1555 87L1636 79L1718 78L1800 93L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#3e0f16"></path><path d="M0 81L82 82L164 84L245 87L327 96L409 89L491 84L573 85L655 84L736 90L818 90L900 86L982 98L1064 81L1145 92L1227 89L1309 94L1391 87L1473 90L1555 81L1636 88L1718 92L1800 93L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#350f14"></path><path d="M0 93L82 92L164 96L245 85L327 95L409 88L491 91L573 88L655 87L736 89L818 98L900 96L982 98L1064 97L1145 92L1227 91L1309 85L1391 97L1473 98L1555 87L1636 98L1718 95L1800 95L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#2c0e13"></path><path d="M0 88L82 91L164 98L245 90L327 94L409 95L491 93L573 97L655 96L736 96L818 96L900 93L982 88L1064 91L1145 93L1227 92L1309 92L1391 94L1473 97L1555 94L1636 97L1718 93L1800 90L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#230c10"></path><path d="M0 93L82 90L164 98L245 97L327 92L409 99L491 97L573 99L655 95L736 99L818 95L900 97L982 97L1064 97L1145 94L1227 97L1309 94L1391 93L1473 94L1555 98L1636 97L1718 90L1800 98L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#1b080c"></path><path d="M0 98L82 94L164 98L245 97L327 96L409 94L491 98L573 93L655 95L736 99L818 96L900 93L982 98L1064 93L1145 94L1227 96L1309 94L1391 97L1473 99L1555 95L1636 95L1718 95L1800 96L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#0f0406"></path></svg>
+        </section>
+
+    </section>
+
+    <!-- ********************************************************************************************************************************** -->
+
+    <section id='page5'>
+
+        <section class='barres'>
+            <div class="barre1"></div>
+            <div class="barre2"></div>
+        </section>
+
+        <section class="container_panneau">
+            <section class="panneau">
+                <div class="title">
+                    <p>Mesure du bruit</p> 
+                </div>
+            </section>
+        </section>
+
+        <div class="barre3"></div>
+
+        <article class="bloc1">             
+            <h3>Quel est le but ?</h3>
+            <section class="text">
+                <p>Le principe de cette mesure est de déterminer la nature d'un volcan à partir du son qu'il émet. <br> <br>
+                    En effet, un volcan peut être explosif ou effusif. <br>
+                    Le volcan explosif est le volcan le plus dangereux étant 
+                    donné que lors de son éruption, il produit une explosion soudaine projetant des cendres et des pierres volcaniques 
+                    sur des kilomètres pouvant causer la mort des habitants aux bordures de ces volcans n’ayant pas eu le temps de fuir. <br>
+                    Ce volcan est donc reconnaissable au bruit qu’il émet, une explosion produisant un grand son dont la valeur décroit 
+                    en fonction du temps. <br>
+                    Le puy de Dôme présent en Auvergne est de cette nature et n’a vécu qu’une seule éruption. <br><br>
+                    Quand à lui, le volcan effusif, lui, ne produit que des coulées de lave lors de son éruption, il est donc bien moins 
+                    dangereux et est reconnaissable par le son continue qu’il produit due aux remontées de lave et à leur coulé.
+
+
+                </p>
+            </section>
+        </article>
+
+        <div class="barre4"></div>
+
+        <article class="bloc2">             
+            <h3>Principe de mesure</h3>
+            <section class="text">
+                <p>Le but du projet a donc été d'acquérir le son émis grâce à un micro électret et de l'analyser à l'aide d'un code Arduino. <br>
+                    Le micro permet de donner une tension proportionnelle au son qu'il reçoit par l'intermédiaire d'une bobine de cuivre 
+                    entourant un aimant et se déplaçant sur un seul axe grâce aux vibrations sonores. Ainsi, le mouvement de la 
+                    bobine induit une tension alternative. Cette même tension est envoyé à la carte Arduino permettant de la transformer en bits afin d'être 
+                    analysés par le programme. 
+                </p>
+            </section>
+        </article>
+
+        <div class="barre5"></div>
+
+        <article class="bloc3">             
+            <h3>Mise en pratique</h3>
+            <section class="text">
+                <p>Afin de ne pas abîmer la carte Arduino avec des tensions négatives qu'elle n'accepte pas, un offset a été appliqué 
+                    grâce au potentiomètre du micro électret de tel sorte qu'avec un bruit ambiant, la transformation de la tension en bits 
+                    donne une valeur égale à la moitié de la valeurs maximales (1024) soit environ 512 bits. <br>
+                    Après avoir réglé cet offset, un étalonnage a été effectuer avec un sonomètre afin de tracer une courbe de la tension 
+                    délivrée par le micro en fonction des décibels reçus. L'équation obtenue de cette courbe nous a donné une équation 
+                    qui permettra de faire facilement la conversion volts/décibels. <br>
+                    Enfin, le programme permettant de déterminer la nature du volcan a été créé et est présenté Figure n°1. Après acquisition du nombre de bits de mesure, 
+                    il met la valeur dans un tableau et répète l'opération pendant 10 mesures ce qui crée une fenêtre de mesure. Une fois le tableau remplie, chacune des valeurs 
+                    sont ressortis afin de déterminer la plus faible et la plus élevé. Ces deux valeurs seront ensuite convertis en volts 
+                    puis en décibels et rentrées dans une nouveau tableau. <br>
+                    Cette fenêtre de mesure est répétée 10fois, ainsi, les valeurs de décibels les plus élevées de chaque fenêtre sont 
+                    relevées. Il suffit plus qu'à déterminer la différence maximale de décibels sur l'ensemble de la mesure, si la différence 
+                    est élevée (plus de 15dB), le volcan est explosif, sinon effusif.
+                </p>
+            </section>
+        </article>
+
+        <section class="img1">
+            <img src="https://imagizer.imageshack.com/img922/1518/Jq7Nyy.jpg" alt="Code permettant l'acquisition du bruit">
+            <p>Figure n°1 : Code permettant l'acquisition du bruit.</p>
+        </section>
+
+        <section class="svg">
+            <svg id="visual" viewBox="0 0 1800 100" width="1800" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><path d="M0 78L82 70L164 63L245 91L327 63L409 92L491 71L573 80L655 70L736 65L818 90L900 99L982 77L1064 96L1145 78L1227 83L1309 85L1391 84L1473 90L1555 62L1636 83L1718 76L1800 96L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#750f11"></path><path d="M0 71L82 86L164 83L245 68L327 73L409 69L491 82L573 63L655 98L736 69L818 64L900 76L982 73L1064 98L1145 63L1227 81L1309 98L1391 79L1473 93L1555 74L1636 70L1718 73L1800 62L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#6c0e13"></path><path d="M0 87L82 88L164 82L245 75L327 78L409 87L491 87L573 91L655 85L736 84L818 90L900 78L982 90L1064 83L1145 83L1227 87L1309 91L1391 93L1473 79L1555 96L1636 97L1718 87L1800 78L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#630e15"></path><path d="M0 79L82 69L164 90L245 98L327 86L409 83L491 74L573 95L655 69L736 89L818 72L900 71L982 84L1064 95L1145 74L1227 89L1309 74L1391 74L1473 72L1555 71L1636 88L1718 87L1800 85L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#5a0e16"></path><path d="M0 88L82 90L164 85L245 81L327 79L409 75L491 80L573 92L655 79L736 96L818 76L900 96L982 89L1064 89L1145 72L1227 83L1309 82L1391 94L1473 74L1555 83L1636 96L1718 85L1800 78L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#510f16"></path><path d="M0 84L82 89L164 94L245 77L327 84L409 77L491 96L573 88L655 91L736 97L818 96L900 88L982 99L1064 91L1145 75L1227 89L1309 95L1391 87L1473 97L1555 95L1636 87L1718 97L1800 75L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#480f16"></path><path d="M0 82L82 94L164 79L245 78L327 78L409 90L491 90L573 78L655 98L736 93L818 90L900 96L982 99L1064 95L1145 87L1227 98L1309 79L1391 84L1473 81L1555 78L1636 89L1718 98L1800 93L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#3e0f16"></path><path d="M0 92L82 90L164 97L245 94L327 87L409 99L491 93L573 96L655 90L736 95L818 87L900 94L982 94L1064 88L1145 95L1227 87L1309 90L1391 92L1473 98L1555 88L1636 83L1718 94L1800 88L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#350f14"></path><path d="M0 97L82 84L164 94L245 97L327 97L409 93L491 84L573 85L655 85L736 92L818 86L900 91L982 88L1064 98L1145 97L1227 84L1309 97L1391 90L1473 97L1555 96L1636 92L1718 89L1800 95L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#2c0e13"></path><path d="M0 94L82 90L164 88L245 99L327 93L409 95L491 94L573 95L655 96L736 88L818 92L900 98L982 94L1064 92L1145 89L1227 98L1309 97L1391 91L1473 96L1555 99L1636 98L1718 95L1800 96L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#230c10"></path><path d="M0 96L82 90L164 94L245 93L327 93L409 96L491 90L573 96L655 96L736 95L818 91L900 96L982 97L1064 90L1145 94L1227 90L1309 92L1391 92L1473 91L1555 92L1636 97L1718 92L1800 95L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#1b080c"></path><path d="M0 98L82 94L164 99L245 99L327 97L409 99L491 99L573 98L655 98L736 96L818 98L900 96L982 93L1064 97L1145 97L1227 95L1309 97L1391 95L1473 96L1555 97L1636 95L1718 94L1800 95L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#0f0406"></path></svg>
+        </section>
+
+    </section>
+
+    <!-- ********************************************************************************************************************************** -->
+
+    <section id='page6'>
+
+        <section class='barres'>
+            <div class="barre1"></div>
+            <div class="barre2"></div>
+        </section>
+
+        <section class="container_panneau">
+            <section class="panneau">
+                <div class="title">
+                    <p>Autres</p> 
+                </div>
+            </section>
+        </section>
+
+        <div class="barre3"></div>
+
+        <article class="bloc1">             
+            <h3>Quels sont les autres projets ?</h3>
+            <section class="text">
+                <p>D'autres projets pouvaient être créés lors de ce challenge. L'équipe a donc décider de créer une vidéo et un site internet 
+                    pour mettre en lumière ce Projet Turoré. 
+
+                </p>
+            </section>
+        </article>
+
+        <div class="barre4"></div>
+
+        <article class="bloc2">             
+            <h3>Notre participation</h3>
+            <section class="text">
+                <p>C'est donc Colyne CHARBON, Bastien GARDETTE, Gaël POREE, Alexandre TAIN et Hugo THYS qui composent l'équipe de l'IUT 
+                    de Clermont-Ferrand tutorés par Madame PERY et Monsieur POLLES. Nous avons choisis le mesure de sons de volcans 
+                    comme mesure au choix afin de pouvoir savoir si un volcan est effusif ou explosif à partir du son qu'il émet.<br>
+                    Notre équipe s'est donc partager le travail. Ainsi, Alexandre, Bastien et Hugo se sont occupés en majorité du 
+                    sismomètre tandis que Colyne s'occupé de la mesure de l'acidité Dornic et Gaël de la mesure du son. 
+                </p>
+            </section>
+        </article>
+
+        <section class="svg">
+            <svg id="visual" viewBox="0 0 1800 100" width="1800" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><path d="M0 74L82 85L164 93L245 59L327 98L409 79L491 66L573 89L655 93L736 64L818 86L900 68L982 85L1064 73L1145 74L1227 62L1309 74L1391 60L1473 62L1555 85L1636 87L1718 71L1800 75L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#750f11"></path><path d="M0 89L82 85L164 74L245 88L327 75L409 84L491 80L573 87L655 75L736 83L818 90L900 84L982 63L1064 79L1145 70L1227 85L1309 64L1391 76L1473 89L1555 75L1636 85L1718 64L1800 77L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#6c0e13"></path><path d="M0 96L82 78L164 79L245 90L327 89L409 94L491 90L573 95L655 76L736 98L818 87L900 88L982 95L1064 85L1145 83L1227 72L1309 77L1391 74L1473 67L1555 86L1636 75L1718 74L1800 71L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#630e15"></path><path d="M0 88L82 87L164 94L245 73L327 95L409 82L491 82L573 87L655 69L736 78L818 76L900 70L982 97L1064 86L1145 71L1227 88L1309 72L1391 74L1473 89L1555 76L1636 75L1718 97L1800 85L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#5a0e16"></path><path d="M0 97L82 90L164 89L245 89L327 91L409 88L491 93L573 80L655 84L736 88L818 84L900 88L982 79L1064 92L1145 76L1227 92L1309 85L1391 79L1473 95L1555 73L1636 77L1718 81L1800 72L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#510f16"></path><path d="M0 75L82 93L164 86L245 75L327 95L409 80L491 96L573 96L655 94L736 99L818 95L900 96L982 79L1064 92L1145 83L1227 84L1309 77L1391 93L1473 93L1555 94L1636 80L1718 96L1800 86L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#480f16"></path><path d="M0 87L82 94L164 97L245 97L327 95L409 83L491 86L573 83L655 97L736 78L818 89L900 96L982 92L1064 86L1145 81L1227 79L1309 94L1391 95L1473 79L1555 85L1636 90L1718 94L1800 78L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#3e0f16"></path><path d="M0 94L82 89L164 81L245 81L327 92L409 99L491 91L573 91L655 94L736 91L818 81L900 96L982 91L1064 94L1145 84L1227 85L1309 91L1391 88L1473 93L1555 84L1636 98L1718 91L1800 84L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#350f14"></path><path d="M0 84L82 90L164 84L245 89L327 96L409 84L491 85L573 92L655 96L736 92L818 88L900 93L982 94L1064 89L1145 86L1227 90L1309 96L1391 85L1473 87L1555 98L1636 94L1718 85L1800 96L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#2c0e13"></path><path d="M0 96L82 89L164 90L245 90L327 97L409 94L491 91L573 90L655 96L736 97L818 96L900 94L982 92L1064 92L1145 89L1227 87L1309 91L1391 89L1473 94L1555 91L1636 97L1718 96L1800 92L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#230c10"></path><path d="M0 97L82 96L164 91L245 94L327 97L409 97L491 97L573 99L655 94L736 98L818 96L900 90L982 91L1064 97L1145 99L1227 96L1309 94L1391 94L1473 92L1555 94L1636 99L1718 96L1800 95L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#1b080c"></path><path d="M0 97L82 96L164 98L245 96L327 94L409 93L491 95L573 93L655 97L736 94L818 96L900 94L982 95L1064 96L1145 95L1227 95L1309 98L1391 95L1473 95L1555 95L1636 93L1718 98L1800 96L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#0f0406"></path></svg>
+        </section>
+
+    </section>
+
+    <!-- ********************************************************************************************************************************** -->
+
+    <footer id="footer">
+
+        <section class="svg">
+            <svg id="visual" viewBox="0 0 1800 100" width="1800" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><path d="M0 86L82 76L164 97L245 59L327 79L409 67L491 59L573 92L655 98L736 69L818 63L900 95L982 88L1064 76L1145 72L1227 77L1309 75L1391 72L1473 90L1555 82L1636 91L1718 87L1800 77L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#750f11"></path><path d="M0 85L82 84L164 97L245 78L327 78L409 94L491 68L573 80L655 73L736 66L818 71L900 85L982 70L1064 82L1145 70L1227 64L1309 93L1391 67L1473 70L1555 97L1636 86L1718 90L1800 91L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#6c0e13"></path><path d="M0 88L82 94L164 82L245 96L327 90L409 82L491 71L573 83L655 89L736 80L818 90L900 66L982 97L1064 77L1145 72L1227 92L1309 67L1391 94L1473 77L1555 85L1636 85L1718 89L1800 79L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#630e15"></path><path d="M0 72L82 75L164 71L245 88L327 76L409 87L491 84L573 90L655 83L736 96L818 91L900 95L982 84L1064 73L1145 87L1227 89L1309 78L1391 92L1473 93L1555 69L1636 73L1718 97L1800 76L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#5a0e16"></path><path d="M0 74L82 98L164 95L245 72L327 76L409 74L491 96L573 72L655 81L736 85L818 79L900 80L982 80L1064 98L1145 91L1227 78L1309 86L1391 97L1473 86L1555 95L1636 78L1718 89L1800 80L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#510f16"></path><path d="M0 88L82 75L164 90L245 91L327 90L409 99L491 79L573 89L655 77L736 85L818 85L900 83L982 82L1064 91L1145 85L1227 78L1309 80L1391 99L1473 99L1555 85L1636 96L1718 91L1800 88L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#480f16"></path><path d="M0 95L82 91L164 78L245 88L327 93L409 79L491 86L573 91L655 98L736 99L818 81L900 78L982 79L1064 84L1145 81L1227 95L1309 90L1391 80L1473 88L1555 89L1636 86L1718 84L1800 86L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#3e0f16"></path><path d="M0 95L82 84L164 86L245 87L327 98L409 86L491 95L573 91L655 88L736 92L818 83L900 93L982 98L1064 94L1145 86L1227 88L1309 93L1391 97L1473 88L1555 83L1636 94L1718 87L1800 99L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#350f14"></path><path d="M0 98L82 95L164 90L245 86L327 90L409 87L491 85L573 96L655 94L736 99L818 86L900 84L982 84L1064 94L1145 93L1227 87L1309 94L1391 94L1473 97L1555 86L1636 92L1718 97L1800 96L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#2c0e13"></path><path d="M0 93L82 97L164 94L245 87L327 95L409 98L491 93L573 91L655 99L736 98L818 97L900 90L982 89L1064 95L1145 98L1227 99L1309 89L1391 88L1473 96L1555 98L1636 93L1718 89L1800 89L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#230c10"></path><path d="M0 94L82 92L164 99L245 96L327 94L409 93L491 98L573 91L655 95L736 94L818 97L900 98L982 91L1064 93L1145 97L1227 97L1309 98L1391 94L1473 94L1555 97L1636 97L1718 97L1800 97L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#1b080c"></path><path d="M0 97L82 94L164 96L245 96L327 95L409 97L491 94L573 95L655 94L736 95L818 93L900 97L982 95L1064 96L1145 98L1227 98L1309 98L1391 97L1473 96L1555 93L1636 95L1718 95L1800 97L1800 101L1718 101L1636 101L1555 101L1473 101L1391 101L1309 101L1227 101L1145 101L1064 101L982 101L900 101L818 101L736 101L655 101L573 101L491 101L409 101L327 101L245 101L164 101L82 101L0 101Z" fill="#0f0406"></path></svg>
+        </section>
+
+    </footer>
+
+
+</body>
+</html>
