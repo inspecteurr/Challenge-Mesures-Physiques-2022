@@ -632,6 +632,21 @@ svg{
     margin-left: 90%;
     margin-top: -53vh;
 }
+#page3 .barre5{
+    width: 1px;
+    height: 53vh;
+    background-color: #A80306;
+    margin-left: 90px;
+    margin-top: -23vh;
+}
+#page3 .barre6{
+    width: 1px;
+    height: 52vh;
+    background-color: #A80306;
+    margin-right: 50px;
+    margin-left: 90%;
+    margin-top: -38vh;
+}
 
 #page3 .container_panneau{
     display: flex;
@@ -686,6 +701,43 @@ svg{
 #page3 .bloc2 .text{
     color: blanchedalmond;
     margin-top: 70px;
+    font-family: 'Cutive Mono', monospace;
+    text-align: justify;
+    text-align: right;
+}
+
+#page3 .bloc3{
+    margin-left: 20px;
+    width: 60%;
+}
+#page3 .bloc3 h3{
+    transform: rotate(17deg);
+    width: 200px;
+    color: #750F11;
+    font-family: 'Raleway', sans-serif;
+}
+#page3 .bloc3 .text{
+    color: blanchedalmond;
+    margin-top: 50px;
+    font-family: 'Cutive Mono', monospace;
+    text-align: justify;
+}
+
+#page3 .bloc4{
+    width: 60%;
+    float: right;
+    margin-right: 20px;
+}
+#page3 .bloc4 h3{
+    transform: rotate(-17deg);
+    width: 200px;
+    color: #750F11;
+    font-family: 'Raleway', sans-serif;
+    float: right;
+}
+#page3 .bloc4 .text{
+    color: blanchedalmond;
+    margin-top: 100px;
     font-family: 'Cutive Mono', monospace;
     text-align: justify;
     text-align: right;
