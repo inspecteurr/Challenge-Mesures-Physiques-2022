@@ -1132,6 +1132,38 @@ svg{
     transform: rotate(180deg);
     margin-top: -25px;
 }
+#footer .text{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#footer .text p{
+    padding-right: 15px;
+    padding-left: 15px;
+    display: inline;
+}
+#footer .text :nth-child(2){
+    margin-top: 40px;
+}
+#footer .text :nth-child(4){
+    margin-top: 40px;
+}
+#footer .text :nth-child(6){
+    margin-top: 40px;
+}
+#footer .text :nth-child(1){
+    margin-top: -40px;
+}
+#footer .text :nth-child(3){
+    margin-top: -40px;
+}
+#footer .text :nth-child(5){
+    margin-top: -40px;
+}
+#footer .text :nth-child(7){
+    margin-top: -40px;
+}
 
 /* ******************************************************************************************************** */
 /* ******************************************************************************************************** */
