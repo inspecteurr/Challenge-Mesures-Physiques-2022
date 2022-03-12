@@ -1126,6 +1126,7 @@ svg{
     background-color: #0F0406;
     position: relative;
     cursor: none;
+    height: 200px;
 }
 #footer svg{
     width: 100%;
@@ -1135,34 +1136,29 @@ svg{
 #footer .text{
     display: flex;
     width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#footer .one{
+    position: absolute;
+    display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
+}
+#footer .two{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
 }
 #footer .text p{
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
     display: inline;
-}
-#footer .text :nth-child(2){
-    margin-top: 40px;
-}
-#footer .text :nth-child(4){
-    margin-top: 40px;
-}
-#footer .text :nth-child(6){
-    margin-top: 40px;
-}
-#footer .text :nth-child(1){
-    margin-top: -40px;
-}
-#footer .text :nth-child(3){
-    margin-top: -40px;
-}
-#footer .text :nth-child(5){
-    margin-top: -40px;
-}
-#footer .text :nth-child(7){
-    margin-top: -40px;
 }
 
 /* ******************************************************************************************************** */
@@ -1321,6 +1317,15 @@ svg{
         width: 90%;
         font-size: 13px;
     }
+    #page3 .bloc3{
+        width: 90%;
+        text-align: right;
+        font-size: 13px;
+    }
+    #page3 .bloc4{
+        width: 90%;
+        font-size: 13px;
+    }
     #page3 .panneau{
         border-radius: 10px;
         width: 45vh;
@@ -1412,7 +1417,16 @@ svg{
     #page6 .title{
         font-size: 30px;
     }
-        #footer {
+    #footer {
         font-size: 7px;
+    }
+    #footer .one{
+        display: grid;
+        padding-left: 0;
+    }
+    #footer .two{
+        display: grid;
+        margin-top: 170px;
+        padding-left: 8px;
     }
 }
