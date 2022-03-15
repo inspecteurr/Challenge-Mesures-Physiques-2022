@@ -305,7 +305,10 @@
         <article class="bloc3">             
             <h3>Le signal de sortie</h3>
             <section class="text">
-                <p>Malheureusement, le signal en sortie de bobine est trop faible pour être manipulé et analysé. 
+                <p>Malheureusement, le signal en sortie de bobine est trop faible pour être manipulé et analysé. Un montage électrique représenté sur la Figure n°1 (pas encore créée)
+                    a donc été créé par Alexandre afin d'être imprimé sur un circuit imprimé. Il permet donc d'amplifier le signal grâce à un amplificateur opérationnel, le deuxième 
+                    amplificateur, lui, permet un montage sommateur afin d'obtenir un offset pour être sur de n'envoyer que des tension positives à la carte Arduino qui n'est pas 
+                    faite pour recevoir de tensions négatives.
                 </p>
             </section>
         </article>
@@ -443,7 +446,7 @@
                     Après avoir réglé cet offset, un étalonnage a été effectué avec un sonomètre afin de tracer une courbe de la tension 
                     délivrée par le micro en fonction des décibels reçus. L'équation obtenue de cette courbe nous a donné une équation 
                     qui permettra de faire facilement la conversion volts/décibels. <br>
-                    Enfin, le programme permettant de déterminer la nature du volcan a été créé et est présenté Figure n°1. Après acquisition du nombre de bits de mesure, 
+                    Enfin, le programme permettant de déterminer la nature du volcan a été créé et est présenté Figure n°2. Après acquisition du nombre de bits de mesure, 
                     il met la valeur dans un tableau et répète l'opération pendant 10 mesures ce qui crée une fenêtre de mesure. Une fois le tableau remplie, chacune des valeurs 
                     sont ressortis afin de déterminer la plus faible et la plus élevé. Ces deux valeurs seront ensuite convertis en volts 
                     puis en décibels et rentrées dans un nouveau tableau. <br>
@@ -456,7 +459,7 @@
 
         <section class="img1">
             <img src="https://imagizer.imageshack.com/img922/1518/Jq7Nyy.jpg" alt="Code permettant l'acquisition du bruit">
-            <p>Figure n°1 : Code permettant l'acquisition du bruit.</p>
+            <p>Figure n°2 : Code permettant l'acquisition du bruit.</p>
         </section>
 
         <section class="svg">
