@@ -1058,6 +1058,14 @@ svg{
     margin-left: 90%;
     margin-top: -400px;
 }
+#page6 .barre5{
+    width: 1px;
+    height: 120vh;
+    background-color: #A80306;
+    margin-right: 50px;
+    margin-left: 180px;
+    margin-top: -80vh;
+}
 
 #page6 .container_panneau{
     display: flex;
@@ -1115,6 +1123,24 @@ svg{
     font-family: 'Cutive Mono', monospace;
     text-align: justify;
     text-align: left;
+}
+
+#page6 .bloc3{
+    margin-left: 20px;
+    width: 60%;
+}
+#page6 .bloc3 h3{
+    transform: rotate(17deg);
+    width: 200px;
+    color: #750F11;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 80px;
+}
+#page6 .bloc3 .text{
+    color: blanchedalmond;
+    margin-top: 50px;
+    font-family: 'Cutive Mono', monospace;
+    text-align: justify;
 }
 #page6 .svg{
     width: 100%;
@@ -1408,6 +1434,18 @@ svg{
     #page6 .bloc2{
         width: 90%;
         font-size: 13px;
+    }
+    #page6 .bloc3{
+        width: 90%;
+        text-align: right;
+        font-size: 13px;
+    }
+    #page6 .barre4{
+        margin-top: -400px;
+    }
+    #page6 .barre5{
+        margin-top: -500px;
+        height: 140vh;
     }
     #page6 .panneau{
         border-radius: 10px;
